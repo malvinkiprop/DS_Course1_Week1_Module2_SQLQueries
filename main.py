@@ -141,7 +141,6 @@ df_hungry_ages = pd.read_sql("""SELECT name, age, hungry FROM dogs WHERE hungry 
 # CodeGrade step8
 # Replace None with your code
 df_4_oldest = pd.read_sql("""SELECT name, age, breed FROM (SELECT name, age, breed FROM dogs ORDER BY age DESC LIMIT 4);""", conn2)
-SC
 # %% [markdown]
 # ## Part 4: Aggregation
 
